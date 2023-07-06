@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Kablammo&family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.universal {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.universal-1 {
+  display: grid;
+}
+.universal-2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#menuicon{
+  display: none;
+  width: 6vw;
+}
+.first_ul {
+  margin-right: 100px;
+  margin-top: 30px;
+  accent-color: aliceblue;
+  align-items: center;
+}
+.sliding {
+  padding-right: 741px;
+  font-size: 43px;
+}
+.sizing_book {
+  width: 40vw;
+}
+.nav-link {
+  color: black;
+}
+.size-distribution {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-site {
+  font-family: "Kablammo", cursive;
+}
+.teller {
+  font-family: "Lobster", cursive;
+  width: 30vw;
+}
+.download-container {
+  height: 68vh;
+  display: flow-root;
+  width: 100%;
+  margin-top: 5vh;
+}
+.download-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px;
+  padding: 0px 20vw;
+}
+.letter-formating {
+  text-transform: capitalize;
+  font-family: "Lobster", cursive;
+}
+.bac-video {
+  z-index: -2;
+  position: absolute;
+  width: 100%;
+}
+.toattract {
+  background-color: white;
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.setheading {
+  display: grid;
+  margin-top: 13vh;
+  justify-content: center;
+}
+.sizeicon{
+  font-size: 50px;
+}
+.carousel-size{
+  height: 50vh;
+  width: 100%;
+}
+.cardandheadingcontainer{
+  height: fit-content;
+}
+.card-container{
+  margin-top: 10vh;
+}
+.manipulateimage{
+  width: 30vw;
+  border-radius: 20px;
+}
+.customer_reviews{
+  height: fit-content;
+  background-color: #F9DEC8;
+}
+.customerreviewfont{
+  font-family: "Lobster", cursive;
+  /* i applied this in two place of heading */
+}
+.reviews{
+  height: 30vh;
+  text-align: end;
+  padding-left: 18vw;
+}
+.reviewspadding{
+  padding: 20px 0px;
+}
+.change-margin{
+  margin-left: 25vw;
+}
+@media screen and (max-width:850px) {
+  .sliding{
+    padding-right: 60px;
+
+  }
+  .first_ul{
+    margin-top: 0;
+  }
+  .media-change-image{
+    width: 75vw;
+  }
+  .teller{
+    width: 22vw;
+  }
+  .download-container{
+    height: 37vh;
+  }
+  .setheading{
+    margin-top: 8vh;
+  }
+  .download-box{
+    padding: 0px 0px;
+  }
+  .toattract{
+    height: 30vh;
+  }
+  .customer_reviews{
+    height: 35vh;
+  }
+  .manipulateimage{
+    width: 37vw;
+  }
+  .reviews{
+    height: 14vh;
+    padding-left: 25vw;
+  }
+  .customerreviewtext{
+    font-size: 11px;
+  }
+  #footerheight{
+    height: fit-content;
+  }
+}
+@media screen and (max-width: 500px) {
+  .nav-responsive{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+  }
+  .first_ul{
+        margin-right: 0px;
+        margin-top: 0px;
+  }
+  #menuicon{
+    display: block;
+  }
+  .try{
+    display: none;
+  }
+  .displaychangeforresponsive{
+    display: grid;
+    width: fit-content;
+
+  }
+  .positionchange{
+    position: relative;
+    left: 20vw;
+    width: 33vw;
+  }
+  .displayofli{
+    display: none;
+  }
+  .menubar{
+    margin-top: 28px;
+    margin-left: 20px;
+  }
+  .espciallyforheight{
+    bottom: 25vh;
+  }
+  .justfontsize{
+    font-size: 18px;
+  }
+  .anotherfontsize{
+    font-size: 12px;
+  }
+  .download-box{
+    margin: 15px;
+  }
+  .sizeicon{
+    font-size: 30px;
+  }
+  .toattract{
+    height: 22vh;
+  } 
+  .customer_reviews{
+    height: 30vh;
+  }
+  .customerreviewtext{
+    font-size: 7px;
+  }
+  .reviewspadding {
+    padding: 8px 0px;
+  }
+ .reviews{
+  height: 13vh;
+ }
+  .fontsizeforparagrapg{
+    font-size: 8px;
+  }
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
+.change-margin{
+  margin-left:1px;
+}
+.ml{
+  margin-left: 35vw;
+}
+}
